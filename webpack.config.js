@@ -22,6 +22,7 @@ module.exports = {
         alias: {
             '@': examplePath,
             'src': srcPath,
+            'vue$': 'vue/dist/vue.esm.js',
         },
     },
     devServer:{

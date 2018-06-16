@@ -5,7 +5,7 @@
     <br><br><br><br>
     <h3>As you can see, the v-runtime-template component has access to this component scope, and updates accordingly. </h3>    
     <input v-model="name"/> {{name}}
-		<!-- <v-runtime-template :template="template"></v-runtime-template> -->
+		<meta-runtime-template :template="template"></meta-runtime-template>
 	</div>
 </template>
 
